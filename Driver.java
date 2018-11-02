@@ -47,6 +47,7 @@
 	c.add("b");
 	c.add("a");
 	c.add("c");
+	c.add("c");
 	System.out.println(c);
     }
  }
