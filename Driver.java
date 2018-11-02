@@ -34,6 +34,12 @@
 	catch (IllegalArgumentException e) {
 	    e.printStackTrace();
 	}
+	b.set(0, new Integer(0));
+	b.set(1, new Integer(1));
+	a.set(0, "A");
+       	a.set(1, "B");
+	a.set(2, "C");
+	a.set(3, "D");
 	System.out.println(a);
 	System.out.println(b);
     }
