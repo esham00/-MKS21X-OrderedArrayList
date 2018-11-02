@@ -42,6 +42,12 @@
 	a.set(3, "D");
 	System.out.println(a);
 	System.out.println(b);
+	OrderedArrayList<String> c = new OrderedArrayList<String>();
+	OrderedArrayList<Integer> d = new OrderedArrayList<Integer>(2);
+	c.add("b");
+	c.add("a");
+	c.add("c");
+	System.out.println(c);
     }
  }
 		
